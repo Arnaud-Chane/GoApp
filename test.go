@@ -12,4 +12,8 @@ func main(){
 
   fmt.Println("First dice is",dice1,"and the second is",dice2,".")
 
+  var name string
+  fmt.Print("You are ")
+  fmt.Scanln(&name)
+
 }
