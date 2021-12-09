@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+package main
+
+import (
+  "fmt"
+  "math/rand"
+)
+
+func main(){
+  
+  var dice1 = rand.Intn(6)+1
+  var dice2 = rand.Intn(6)+1
+
+  fmt.Println("First dice is",dice1,"and the second is",dice2,".")
+
+  var name string
+  fmt.Print("You are ")
+  fmt.Scanln(&name)
+
+}
+=======
+hxjs
+>>>>>>> 5029223 (changing lessons by name more explicit)
